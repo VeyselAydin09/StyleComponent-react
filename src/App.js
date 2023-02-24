@@ -1,4 +1,5 @@
 import { ThemeProvider } from "styled-components";
+import Card from "./components/Card";
 import Header from "./components/Header";
 
 
@@ -18,6 +19,7 @@ const App = () => {
   return (
     <ThemeProvider theme={style}>
      <Header/>
+     <Card/>
     </ThemeProvider>
   );
 };
