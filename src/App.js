@@ -1,3 +1,5 @@
+import { ThemeProvider } from "styled-components";
+import Header from "./components/Header";
 
 
 const style = {
@@ -14,9 +16,9 @@ const style = {
 
 const App = () => {
   return (
-    <>
-      <h1>App </h1>
-    </>
+    <ThemeProvider theme={style}>
+     <Header/>
+    </ThemeProvider>
   );
 };
 
