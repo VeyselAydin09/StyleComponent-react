@@ -1,5 +1,6 @@
 import { ThemeProvider } from "styled-components";
 import Card from "./components/Card";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 
@@ -20,6 +21,7 @@ const App = () => {
     <ThemeProvider theme={style}>
      <Header/>
      <Card/>
+     <Footer/>
     </ThemeProvider>
   );
 };
